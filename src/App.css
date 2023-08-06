@@ -1,0 +1,45 @@
+.home {
+    background-image: url('https://example.com/your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  header {
+    background-image: url("https://via.placeholder.com/150x150");
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  section {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #444;
+    }
+}
