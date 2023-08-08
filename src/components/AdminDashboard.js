@@ -1,8 +1,7 @@
 import React from "react";
 import { Col, Container, ListGroup, Row } from "reactstrap";
 import { Link, Outlet } from "react-router-dom";
-import AddEmployee from "./AddEmployee";
-import AddRooms from "./AddRooms";
+
 
 
 

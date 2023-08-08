@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Container } from "reactstrap";
+
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import About from "./pages/About";
@@ -24,11 +24,11 @@ import { RoomProvider } from "./pages/RoomContext";
 import Contact from "./components/Contact";
 
 function App() {
-  const [updateEmployeeId, setUpdateEmployeeId] = useState(null);
+  // const [ setUpdateEmployeeId] = useState(null);
 
-  const handleUpdateEmployeeId = (id) => {
-    setUpdateEmployeeId(id);
-  };
+  // const handleUpdateEmployeeId = (id) => {
+  //   setUpdateEmployeeId(id);
+  // };
   // const handleReceptionClick = () => {
   //   // Custom logic to handle the reception button click
   //   // In this case, we will redirect to the login page

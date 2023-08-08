@@ -23,7 +23,7 @@ const UpdateCustomer = () => {
 
   useEffect(() => {
     fetchCustomerData();
-  }, []);
+  }, );
 
   const fetchCustomerData = () => {
     axios

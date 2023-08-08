@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { FaHome, FaUser, FaHotel, FaLock } from 'react-icons/fa';
+import { FaHome, FaUser, FaHotel } from 'react-icons/fa';
 import './CustomNavbar.css';
 
 const CustomNavbar = () => {

@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import base_url from "../services/Api";
-import UpdateEmployee from "./UpdateEmployee";
+
 import { Link } from "react-router-dom";
 
 const ViewEmployees = () => {

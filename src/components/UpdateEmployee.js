@@ -5,7 +5,6 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import base_url from "../services/Api";
 import { useParams } from "react-router-dom";
-import { useHistory } from "react-router-dom";
 
 const UpdateEmployee = ({ match }) => {
   const [formData, setFormData] = useState({
@@ -25,7 +24,7 @@ const UpdateEmployee = ({ match }) => {
 
   useEffect(() => {
     fetchEmployeeData();
-  }, []);
+  }, );
 
   const fetchEmployeeData = () => {
     axios

@@ -20,7 +20,8 @@ const UpdateRoom = () => {
 
   useEffect(() => {
     fetchRoomData();
-  }, []);
+  },);
+
 
   const fetchRoomData = () => {
     axios

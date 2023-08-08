@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Container, Button, Table } from "reactstrap";
+import { Container, Table } from "reactstrap";
 import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import base_url from "../services/Api";
-import { Link } from "react-router-dom";
 
 const RoomDetails = () => {
-   const [roomData, setRoomData] = useState([]);
-  const [selectedRoomId, setSelectedRoomId] = useState(null);
+  const [roomData, setRoomData] = useState([]);
+  // const [selectedRoomId, setSelectedRoomId] = useState(null);
 
   useEffect(() => {
     fetchRoomData();
@@ -32,7 +31,6 @@ const RoomDetails = () => {
       });
   };
 
-
   return (
     <Container>
       <h1>Room Details</h1>
@@ -44,7 +42,6 @@ const RoomDetails = () => {
             <th>Cleaning Status</th>
             <th>Price</th>
             <th>Bed Type</th>
-            
           </tr>
         </thead>
         <tbody>
@@ -55,8 +52,7 @@ const RoomDetails = () => {
               <td>{room.cleaningStatus}</td>
               <td>{room.price}</td>
               <td>{room.bedType}</td>
-              
-         </tr>
+            </tr>
           ))}
         </tbody>
       </Table>

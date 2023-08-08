@@ -5,7 +5,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import base_url from "../services/Api";
 import { Link } from "react-router-dom";
-import UpdateCustomer from "./UpdateCustomer";
+
 
 
 const CustomerInfo = () => {

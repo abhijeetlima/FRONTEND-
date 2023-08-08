@@ -1,9 +1,10 @@
 import React from "react";
 
 const LogoutButton = () => {
-  const handleLogout = () => {
+  /* const handleLogout = () => {
     window.location.replace("/home");
-  };
+  }; */
+  
   return (
     <div>
       {/* <button onClick={handleLogout} className="logout-button">
